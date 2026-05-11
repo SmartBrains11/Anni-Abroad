@@ -1,0 +1,12 @@
+export { default as Navbar } from './Navbar';
+export { default as Hero } from './Hero';
+export { default as StatsStrip } from './StatsStrip';
+export { default as About } from './About';
+export { default as Services } from './Services';
+export { default as Destinations } from './Destinations';
+export { default as Process } from './Process';
+export { default as Testimonials } from './Testimonials';
+export { default as WhyUs } from './WhyUs';
+export { default as CTA } from './CTA';
+export { default as Footer } from './Footer';
+export { default as WhatsAppButton } from './WhatsAppButton';

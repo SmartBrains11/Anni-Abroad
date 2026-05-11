@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes orbit1 {
+  0%   { transform: rotate(225deg) translateX(220px) rotate(-225deg); }
+  100% { transform: rotate(585deg) translateX(220px) rotate(-585deg); }
+}
+.animate-orbit-1 { animation: orbit1 40s linear infinite; }
+
+@keyframes orbit2 {
+  0%   { transform: rotate(45deg) translateX(190px) rotate(-45deg); }
+  100% { transform: rotate(405deg) translateX(190px) rotate(-405deg); }
+}
+.animate-orbit-2 { animation: orbit2 40s linear infinite; }
+
+@keyframes orbit3 {
+  0%   { transform: rotate(135deg) translateX(210px) rotate(-135deg); }
+  100% { transform: rotate(495deg) translateX(210px) rotate(-495deg); }
+}
+.animate-orbit-3 { animation: orbit3 40s linear infinite; }
+
+@keyframes orbit4 {
+  0%   { transform: rotate(315deg) translateX(200px) rotate(-315deg); }
+  100% { transform: rotate(675deg) translateX(200px) rotate(-675deg); }
+}
+.animate-orbit-4 { animation: orbit4 40s linear infinite; }
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+}
