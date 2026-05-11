@@ -2,9 +2,9 @@ import { ShieldCheck, Globe2, HeartHandshake } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 
 const pillars = [
-  { icon: ShieldCheck,    title: 'Verified Expertise',  desc: 'Certified counselors with deep knowledge of global admissions and immigration law.' },
-  { icon: Globe2,         title: 'Global Reach',         desc: 'Partnerships with 200+ top universities across 20+ countries on every continent.' },
-  { icon: HeartHandshake, title: 'Student-First Ethos',  desc: 'Every decision we make centers on your academic success and long-term career growth.' },
+  { icon: ShieldCheck, title: 'Verified Expertise', desc: 'Certified counselors with deep knowledge of global admissions and immigration law.' },
+  { icon: Globe2, title: 'Global Reach', desc: 'Partnerships with 457+ top universities across 20+ countries on every continent.' },
+  { icon: HeartHandshake, title: 'Student-First Ethos', desc: 'Every decision we make centers on your academic success and long-term career growth.' },
 ];
 
 export default function About() {
@@ -37,13 +37,13 @@ export default function About() {
 
           <div className={`relative group transition-all duration-1000 delay-300 ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'}`}>
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5] lg:aspect-auto lg:h-[600px]">
-              <img 
-                src="/images/scholaship.png" 
-                alt="Student scholarship achievement" 
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" 
+              <img
+                src="/images/scholaship.png"
+                alt="Student scholarship achievement"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent" />
-              
+
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-[2rem] shadow-glass">
                   <div className="inline-flex items-center gap-2 mb-4 px-3 py-1 rounded-full bg-brand-500/20 border border-brand-500/30">

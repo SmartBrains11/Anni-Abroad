@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, Facebook } from 'lucide-react';
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -30,7 +30,7 @@ export default function Navbar() {
             </div>
             <div>
               <span className="font-heading font-bold text-gray-900 text-lg tracking-tight">Annii Abroad</span>
-              <div className="text-[10px] text-brand-400 font-body tracking-widest uppercase">Education & Visas</div>
+              <div className="text-[10px] text-brand-400 font-body tracking-widest uppercase">Abroad Education | Visas and Immigration</div>
             </div>
           </a>
 

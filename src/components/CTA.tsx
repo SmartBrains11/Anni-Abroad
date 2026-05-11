@@ -28,7 +28,7 @@ export default function CTA() {
           </h2>
 
           <p className="font-body text-gray-600 text-xl leading-relaxed max-w-3xl mx-auto mb-12">
-            Join 5,000+ students who trusted Annii Abroad to navigate the most important transition of their lives. Book your free consultation today and take the first step toward a world-class education.
+            Join 25,000 students  who trusted Annii Abroad to navigate the most important transition of their lives. Book your free consultation today and take the first step toward a world-class education.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-16">

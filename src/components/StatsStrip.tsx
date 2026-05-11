@@ -3,10 +3,10 @@ import { useCounter } from '../hooks/useCounter';
 import { Users, CheckCircle2, Building2, Clock } from 'lucide-react';
 
 const stats = [
-  { icon: Users,         value: 5000, suffix: '+', label: 'Students Placed',       color: 'text-brand-400' },
-  { icon: CheckCircle2,  value: 98,   suffix: '%', label: 'Visa Success Rate',     color: 'text-emerald-400' },
-  { icon: Building2,     value: 200,  suffix: '+', label: 'University Partners',   color: 'text-sky-400' },
-  { icon: Clock,         value: 10,   suffix: '+', label: 'Years of Excellence',   color: 'text-amber-400' },
+  { icon: Users, value: 25000, suffix: '+', label: 'Students Placed', color: 'text-brand-400' },
+  { icon: CheckCircle2, value: 98, suffix: '%', label: 'Visa Success Rate', color: 'text-emerald-400' },
+  { icon: Building2, value: 200, suffix: '+', label: 'University Partners', color: 'text-sky-400' },
+  { icon: Clock, value: 10, suffix: '+', label: 'Years of Excellence', color: 'text-amber-400' },
 ];
 
 function StatItem({ stat, active }: { stat: typeof stats[0]; active: boolean }) {

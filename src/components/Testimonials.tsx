@@ -26,7 +26,7 @@ export default function Testimonials() {
   const [animating, setAnimating] = useState(false);
 
   useEffect(() => {
-    const t = setInterval(() => go(1), 5000);
+    const t = setInterval(() => go(1), 25000);
     return () => clearInterval(t);
   });
 

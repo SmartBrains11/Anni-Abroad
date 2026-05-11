@@ -3,10 +3,10 @@ import { useInView } from '../hooks/useInView';
 import { useCounter } from '../hooks/useCounter';
 
 const floatingCards = [
-  { country: 'United States', code: 'US', students: '1,200+', color: 'from-blue-50 to-blue-100/80', bar: '70%', animation: 'animate-orbit-1', image: '/images/us.jpg' },
-  { country: 'United Kingdom', code: 'UK', students: '980+',  color: 'from-red-50 to-rose-100/80', bar: '85%', animation: 'animate-orbit-2', image: '/images/uk.jpg' },
-  { country: 'Canada',         code: 'CA', students: '750+',  color: 'from-rose-50 to-red-100/80', bar: '60%', animation: 'animate-orbit-3', image: '/images/Canada' },
-  { country: 'Australia',      code: 'AU', students: '630+',  color: 'from-amber-50 to-yellow-100/80', bar: '80%', animation: 'animate-orbit-4', image: '/images/Australia.jpg' },
+  { country: 'United States', code: 'US', students: '1,457+', color: 'from-blue-50 to-blue-100/80', bar: '70%', animation: 'animate-orbit-1', image: '/images/us.jpg' },
+  { country: 'United Kingdom', code: 'UK', students: '980+', color: 'from-red-50 to-rose-100/80', bar: '85%', animation: 'animate-orbit-2', image: '/images/uk.jpg' },
+  { country: 'Canada', code: 'CA', students: '750+', color: 'from-rose-50 to-red-100/80', bar: '60%', animation: 'animate-orbit-3', image: '/images/Canada' },
+  { country: 'Australia', code: 'AU', students: '630+', color: 'from-amber-50 to-yellow-100/80', bar: '80%', animation: 'animate-orbit-4', image: '/images/Australia.jpg' },
 ];
 
 function StatBadge({ icon: Icon, value, label, active }: { icon: React.ElementType; value: number; label: string; active: boolean }) {
@@ -37,7 +37,7 @@ export default function Hero() {
           <div className={`pt-8 lg:pt-16 transition-all duration-1000 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-brand-600/30 mb-6">
               <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse" />
-              <span className="font-body text-sm text-brand-600 tracking-wide">Trusted by 5,000+ Students Worldwide</span>
+              <span className="font-body text-sm text-brand-600 tracking-wide">Trusted by 25,000 students  Worldwide</span>
             </div>
 
             <h1 className="font-heading font-bold text-gray-900 leading-[1.08] mb-6">
@@ -89,9 +89,9 @@ export default function Hero() {
         {/* Centered Stats Below */}
         <div className={`max-w-5xl mx-auto border-t border-gray-200/80 pt-10 transition-all duration-1000 delay-300 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-            <StatBadge icon={Users} value={5000} label="Students" active={inView} />
+            <StatBadge icon={Users} value={225000} label="Students" active={inView} />
             <StatBadge icon={Award} value={98} label="Visa Success %" active={inView} />
-            <StatBadge icon={GraduationCap} value={200} label="Universities" active={inView} />
+            <StatBadge icon={GraduationCap} value={457} label="Universities" active={inView} />
             <StatBadge icon={MapPin} value={10} label="Years Exp." active={inView} />
           </div>
         </div>

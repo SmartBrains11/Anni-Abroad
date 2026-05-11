@@ -17,7 +17,12 @@ export default function Footer() {
               Your trusted partner for overseas education and immigration guidance.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="p-2 rounded-lg bg-gray-50 border border-gray-200 text-gray-600 hover:text-gray-900 hover:border-brand-600/40 hover:bg-brand-100/40 transition-all duration-300">
+              <a
+                href="https://www.facebook.com/profile.php?id=61574255895138"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg bg-gray-50 border border-gray-200 text-gray-600 hover:text-gray-900 hover:border-brand-600/40 hover:bg-brand-100/40 transition-all duration-300"
+              >
                 <Facebook size={16} />
               </a>
               <a href="https://www.youtube.com/@anniimedia" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-gray-50 border border-gray-200 text-gray-600 hover:text-brand-600 hover:border-brand-600/40 hover:bg-brand-100/40 transition-all duration-300">
@@ -64,7 +69,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone size={16} className="text-brand-500 mt-0.5 flex-shrink-0" />
                 <a href="tel:+1234567890" className="font-body text-gray-600 text-sm hover:text-gray-900 transition-colors">
-                  +1 (234) 567-890
+                  +91 7396575577
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -75,7 +80,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-brand-500 mt-0.5 flex-shrink-0" />
-                <span className="font-body text-gray-600 text-sm">New York, USA</span>
+                <span className="font-body text-gray-600 text-sm">Vamsi Plaza, 2nd floor, NTR Circle, Vijayawada, India 520010</span>
               </li>
             </ul>
           </div>

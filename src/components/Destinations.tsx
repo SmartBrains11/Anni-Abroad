@@ -2,7 +2,7 @@ import { MapPin, ExternalLink } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 
 const destinations = [
-  { country: 'United States', tagline: 'Innovation & Excellence', highlights: ['Harvard, MIT, Stanford', 'F-1 Student Visa', 'OPT Work Program'], students: '1,200+', image: '/images/us.jpg' },
+  { country: 'United States', tagline: 'Innovation & Excellence', highlights: ['Harvard, MIT, Stanford', 'F-1 Student Visa', 'OPT Work Program'], students: '1,457+', image: '/images/us.jpg' },
   { country: 'United Kingdom', tagline: 'Heritage & Prestige', highlights: ['Oxford, Cambridge, LSE', 'Tier 4 Student Visa', 'PSW Route'], students: '980+', image: '/images/uk.jpg' },
   { country: 'Canada', tagline: 'Welcoming & Diverse', highlights: ['UBC, U of T, McGill', 'Study Permit', 'PGWP & PR Pathway'], students: '750+', image: '/images/Canada' },
   { country: 'Australia', tagline: 'Research & Lifestyle', highlights: ['ANU, Melbourne, Sydney', 'Student Visa 500', 'Graduate Visa 485'], students: '630+', image: '/images/Australia.jpg' },
