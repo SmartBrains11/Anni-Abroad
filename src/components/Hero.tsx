@@ -2,6 +2,8 @@ import { ArrowRight, ChevronDown, MapPin, GraduationCap, Award, Users, Globe2 } 
 import { useInView } from '../hooks/useInView';
 import { useCounter } from '../hooks/useCounter';
 
+
+
 const floatingCards = [
   { country: 'United States', code: 'US', students: '1,457+', color: 'from-blue-50 to-blue-100/80', bar: '70%', animation: 'animate-orbit-1', image: '/images/us.jpg' },
   { country: 'United Kingdom', code: 'UK', students: '980+', color: 'from-red-50 to-rose-100/80', bar: '85%', animation: 'animate-orbit-2', image: '/images/uk.jpg' },
@@ -27,8 +29,7 @@ export default function Hero() {
 
   return (
     <section ref={ref as React.RefObject<HTMLElement>} className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-br from-white via-brand-50/30 to-white pt-28">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      </div>
+
 
       <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle, #000000 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
 
@@ -89,7 +90,7 @@ export default function Hero() {
         {/* Centered Stats Below */}
         <div className={`max-w-5xl mx-auto border-t border-gray-200/80 pt-10 transition-all duration-1000 delay-300 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-            <StatBadge icon={Users} value={225000} label="Students" active={inView} />
+            <StatBadge icon={Users} value={25000} label="Students" active={inView} />
             <StatBadge icon={Award} value={98} label="Visa Success %" active={inView} />
             <StatBadge icon={GraduationCap} value={457} label="Universities" active={inView} />
             <StatBadge icon={MapPin} value={10} label="Years Exp." active={inView} />

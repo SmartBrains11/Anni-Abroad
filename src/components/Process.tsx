@@ -29,7 +29,13 @@ export default function Process() {
         </div>
 
         <div className="relative">
-          <div className="hidden lg:block absolute left-1/2 -translate-x-px top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-brand-600/30 to-transparent" />
+          <div className="hidden lg:block absolute left-1/2 -translate-x-px top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-brand-600/30 to-transparent">
+            <div className="absolute top-0 left-0 w-full h-full">
+              <div className="absolute left-1/2 -translate-x-1/2 animate-plane-fly z-10">
+                <Plane className="text-red-500 fill-red-500/20" size={24} />
+              </div>
+            </div>
+          </div>
 
           <div className="space-y-12 lg:space-y-0">
             {steps.map((step, i) => {

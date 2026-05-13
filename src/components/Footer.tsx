@@ -89,7 +89,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-gray-600 text-xs text-center md:text-left">
-            &copy; 2024 Annii Abroad. All rights reserved.
+            &copy; 2026 Annii Abroad. All rights reserved.
           </p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((link) => (

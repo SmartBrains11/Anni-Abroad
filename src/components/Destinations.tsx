@@ -1,6 +1,8 @@
 import { MapPin, ExternalLink } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 
+
+
 const destinations = [
   { country: 'United States', tagline: 'Innovation & Excellence', highlights: ['Harvard, MIT, Stanford', 'F-1 Student Visa', 'OPT Work Program'], students: '1,457+', image: '/images/us.jpg' },
   { country: 'United Kingdom', tagline: 'Heritage & Prestige', highlights: ['Oxford, Cambridge, LSE', 'Tier 4 Student Visa', 'PSW Route'], students: '980+', image: '/images/uk.jpg' },
@@ -14,8 +16,9 @@ export default function Destinations() {
   const { ref, inView } = useInView(0.1);
 
   return (
-    <section id="destinations" ref={ref as React.RefObject<HTMLElement>} className="py-24 lg:py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+    <section id="destinations" ref={ref as React.RefObject<HTMLElement>} className="relative py-24 lg:py-32 bg-white overflow-hidden">
+
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className={`text-center max-w-2xl mx-auto mb-16 transition-all duration-800 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-600/10 border border-brand-600/20 mb-5">
             <MapPin size={12} className="text-brand-400" />
